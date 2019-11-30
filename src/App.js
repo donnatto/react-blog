@@ -7,7 +7,7 @@ import './App.css';
 import Homepage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ArticlePage from './pages/ArticlePage';
-import ArticlesList from './pages/ArticlesList';
+import ArticlesListPage from './pages/ArticlesListPage';
 import NavBar from './NavBar';
 
 
@@ -19,7 +19,7 @@ function App() {
         <div id="page-body">
           <Route path="/" component={Homepage} exact />
           <Route path="/about" component={AboutPage} exact />
-          <Route path="/articles-list" component={ArticlesList} exact />
+          <Route path="/articles-list" component={ArticlesListPage} exact />
           <Route path="/article/:name" component={ArticlePage} exact />
         </div>
       </div>
